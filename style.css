@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin:0cm;
+    padding: 0cm;
+    border: 0cm;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: 000;
+    background-image:url("img/Sem\ Título-2.jpg") ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-color:#7f7f7f
+
+}
+
+.preencher{
+    width: 100%;
+    height: 100%;
+}
+#celular{
+    visibility: hidden;
+
+}
+#computador{
+    visibility: visible;
+}
+
+@media(max-width:650px) { 
+    #celular{
+        visibility: visible;
+    
+    }
+    #computador{
+        visibility: hidden;
+    }
+}
